@@ -12,16 +12,29 @@
     <h1>Bem vindo! Infome a idade para maiores informações.</h1>
   </header>
   <section>
-    <div id="txt">
-      aqui vai o texto...
+    <div>
+        <p>
+          Ano de nascimento:
+          <input type="number" name="anonasc" id="anonasc" min="0">
+        </p>
+        <p>
+          Sexo:
+          <input type="radio" name="radsex" id="masc" checked>
+          <label for="masc">Masculino</label>
+          <input type="radio" name="radsex" id="fem">
+          <label for="fem">Feminino</label>
+        </p>
+        <p>
+          <input type="button" value="Verificar" onclick="Verificar()">
+        </p>
     </div>
-    <div id="img">
-  
+    <div id="res">
+      <p>Preencha os dados acima para ver o resultado!</p>
     </div>
   </section>
   <footer>
-
+    <p>@Thiago Santos</p>
   </footer>
-  <script src=""></script>
+  <script src="script.js"></script>
 </body>
 </html>
